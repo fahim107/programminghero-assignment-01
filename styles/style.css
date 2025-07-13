@@ -91,3 +91,35 @@ header {
     margin: 158px 267px;
     border: none;
 }
+
+
+/* main{
+    margin-top: 116px;
+    margin-bottom: 118px;
+} */
+
+/* Action style */
+
+.action-container{
+    display:flex ;
+    justify-content: space-around;
+    /* margin-top: 116px; */
+     margin-top: 116px;
+    margin-bottom: 116px;
+}
+
+.action-title{
+    font-weight: bold;
+    font-size: 42px;
+    margin-bottom: 23px;
+}
+.action-container img{
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
+   
+}
+
+
+
+
