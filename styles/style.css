@@ -1,9 +1,4 @@
 
-main section {
-    margin-top: 116px;
-    margin-bottom: 116px;
-    
-}
 
 
 header {
@@ -35,7 +30,8 @@ header {
 
 }
 
-.btn-primary {
+.btn-primary  {
+    
     background-color: #4E47FF;
     color: #FFFFFF;
     padding: 12px 36px;
@@ -43,10 +39,15 @@ header {
     border-radius: 10px;
     font-weight: bold;
     font-size: 16px;
+    
 
 
 
 }
+.nav-container   button:hover {
+    background-color: #cc3131;
+}
+
 
 
 
@@ -54,8 +55,8 @@ header {
 
 /* shared elements */
 
-.secondary-bg{
-    background-color: ;
+.secondary-bg {
+    background-color: #D6DDED;
 }
 
 .text-primary {
@@ -69,8 +70,10 @@ header {
 
     font-style: normal;
 }
-.text-center{
-    text-align: center;}
+
+.text-center {
+    text-align: center;
+}
 
 /* banner section */
 
@@ -85,7 +88,9 @@ header {
     margin: 158px 267px;
     border: none;
 }
-
+.banner-container  button:hover {
+    background-color: #cc3131;
+}
 
 
 /* Action style */
@@ -115,6 +120,9 @@ header {
     margin-bottom: 23px;
 }
 
+.action-content   button:hover {
+    background-color: #cc3131;
+}
 /* User style */
 
 .inter-normal {
@@ -164,10 +172,10 @@ header {
 
     margin: 116px auto;
     text-align: center;
-    
+
     justify-content: center;
-    
-   
+
+
 }
 
 .testimonial-title {
@@ -184,17 +192,17 @@ header {
 }
 
 .testimonial-card {
-  flex: 1;
-  background-color:rgba(255, 255, 255, 50%);
-  padding: 30px;
-  border-radius: 20px;
-  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
-  text-align: left;
+    flex: 1;
+    background-color: rgba(255, 255, 255, 50%);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    text-align: left;
 }
 
 .stars {
     color: #FFC107;
-    
+
     font-size: 18px;
     margin-bottom: 10px;
 }
@@ -225,7 +233,7 @@ header {
 
 .reviewer-info .name {
 
-    
+
 
     font-weight: 600;
     font-size: 16px;
@@ -234,7 +242,7 @@ header {
 .reviewer-info .date {
     font-weight: 400;
     font-size: 16px;
-    color:rgba(179, 179, 179, 100%)
+    color: rgba(179, 179, 179, 100%)
 }
 
 .reviewer-info {
@@ -245,15 +253,16 @@ header {
 
 /* focus style */
 
-.focus-section{
-display: block;
-margin-bottom: 40px;
-padding: 70px 150px;
+.focus-section {
+    display: block;
+    margin-bottom: 40px;
+    padding: 70px 150px;
 
 }
-.focus-title{
+
+.focus-title {
     font-weight: bold;
-    
+
     font-size: 50px;
     margin-bottom: 20px;
     color: #000000;
@@ -261,9 +270,9 @@ padding: 70px 150px;
 }
 
 
-.focus-description{
+.focus-description {
     color: rgba(0, 0, 0, 50%);
-   
+
     text-align: center;
 
 }
@@ -271,12 +280,15 @@ padding: 70px 150px;
 
 
 
-.focus-image{
+.focus-image {
     border-radius: 48px;
-    
-  
+
+
     margin-top: 20px;
     margin-bottom: 86px;
+}
+.focus-content    button:hover {
+    background-color: #cc3131;
 }
 
 
@@ -286,45 +298,36 @@ padding: 70px 150px;
 /* contact section */
 
 
+
+
 .contact-section {
-padding: 70px 0;
-margin-top: 0;
+  background-color: #eef1ff;
+  padding: 60px 20px;
 }
 
-
-
-.contact-container {
+.contact-wrapper {
   max-width: 1140px;
-  height: 490px;
-  margin:  0 auto;
+  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
-  background-color: #eef1ff;
-
   gap: 40px;
-  justify-content: space-between;
-
- 
-  align-items:center; 
-  
+  align-items: center;
 }
-.contact-text {
+
+.contact-left {
   flex: 1 1 300px;
 }
 
-.contact-text h3 {
-  font-size: 60px;
+.contact-left h2 {
+  font-size: 48px;
   font-weight: 700;
-  margin: 0;
-  
-  color: #000;
 }
 
 .contact-form {
   flex: 1 1 500px;
   display: flex;
   flex-direction: column;
-  gap: 19px;
+  gap: 15px;
 }
 
 .contact-form label {
@@ -342,7 +345,6 @@ margin-top: 0;
 }
 
 .contact-form button {
-  margin-top: 10px;
   padding: 14px;
   background-color: #4E47FF;
   color: white;
@@ -355,28 +357,24 @@ margin-top: 0;
 }
 
 .contact-form button:hover {
-  background-color: #3731cc;
+  background-color: #cc3131;
 }
-
-
-
-
 
 
 /* Footer Styles */
 
-.footer{
+.footer {
     background-color: #FFFFFF;
     text-align: center;
     width: 100%;
 }
 
 .footer-container {
-  max-width: 1440px;
-  margin: 104px 455px;
+    max-width: 1440px;
+    margin: 104px 455px;
 }
 
-.footer-logo{
+.footer-logo {
     font-size: 100px;
     font-weight: 900;
     color: #4E47FF;
@@ -384,31 +382,25 @@ margin-top: 0;
 }
 
 
-.footer-description{
+.footer-description {
     color: #8987A1;
     font-size: 16px;
     font-weight: 400;
-    
+
 }
 
-.footer-nav{
+.footer-nav {
     display: flex;
     justify-content: center;
     gap: 44px;
     /* margin-top: 20px 65px 0 65px; */
-    
-    
+
+
 }
 
-.footer-nav a{
+.footer-nav a {
     text-decoration: none;
     color: #8987A1;
     font-size: 16px;
 
 }
-
-
-
-
-
-
