@@ -2,6 +2,7 @@
 main section {
     margin-top: 116px;
     margin-bottom: 116px;
+    
 }
 
 
@@ -75,7 +76,8 @@ header {
 
     font-style: normal;
 }
-
+.text-center{
+    text-align: center;}
 
 /* banner section */
 
@@ -133,7 +135,8 @@ header {
     margin-bottom: 40px;
 
     font-weight: bold;
-    font-size: 38px;
+    font-size: 42px;
+    color: #252432;
 
 }
 
@@ -168,6 +171,8 @@ header {
 
     margin: 116px auto;
     text-align: center;
+    
+    justify-content: center;
     
    
 }
@@ -244,3 +249,38 @@ header {
     flex-direction: column;
     line-height: 1.4;
 }
+
+/* focus style */
+
+.focus-container{
+display: block;
+
+}
+.focus-title{
+    font-weight: bold;
+    
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #000000;
+
+}
+
+
+.focus-description{
+    color: rgba(0, 0, 0, 50%);
+   
+    text-align: center;
+
+}
+
+
+
+
+.focus-image{
+    border-radius: 48px;
+    
+  
+    margin-top: 20px;
+    margin-bottom: 71px;
+}
+
